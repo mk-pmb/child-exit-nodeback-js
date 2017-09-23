@@ -1,0 +1,28 @@
+{ "name": "child-exit-nodeback",
+  "version": "1.0.0",
+  "description": "Observe a child_process's 'exit' and 'close' events and transform them into events with nodeback-style arguments (error, child).",
+  "keywords": [ "child_process", "nodeback", "callback" ],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/child-exit-nodeback-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/child-exit-nodeback-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/child-exit-nodeback-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "cen.js",
+  "scripts": { "test": "nodejs test.usage.js" },
+  "directories": { "test": "test" },
+
+  "dependencies": {},
+  "devDependencies": {},
+
+
+  "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
+}
