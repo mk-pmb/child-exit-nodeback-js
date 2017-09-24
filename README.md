@@ -29,7 +29,7 @@ The 1st argument is either `false` or an Error object, depending on the
 first two arguments of the original event interpreted as exit status
 and kill signal, as a `child_process` would fire them.
 
-The Error object will carry a reference to `ee` in its `src` property,
+The Error object will carry a property `src` which is set to `ee`,
 and at least one of the properties `retval` (the exit code) or `signal`.
 
 

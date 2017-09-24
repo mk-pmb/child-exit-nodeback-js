@@ -1,5 +1,5 @@
 { "name": "child-exit-nodeback",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Observe a child_process's 'exit' and 'close' events and transform them into events with nodeback-style arguments (error, child).",
   "keywords": [ "child_process", "nodeback", "callback" ],
 
