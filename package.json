@@ -1,5 +1,5 @@
 { "name": "child-exit-nodeback",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Observe a child_process's 'exit' and 'close' events and transform them into events with nodeback-style arguments (error, child).",
   "keywords": [ "child_process", "nodeback", "callback" ],
 
@@ -21,7 +21,10 @@
   "directories": { "test": "test" },
 
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "async": "^2.5.0",
+    "equal-pmb": "^0.1.14"
+  },
 
 
   "npm vs. BOM = Unexpected token": "-*- coding: UTF-8 -*-"
